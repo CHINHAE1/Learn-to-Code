@@ -158,6 +158,6 @@ public class Movie {
     }
 
     public String toString() {
-        return "movie{id = " + id + ", title = " + title + ", time = " + time + ", score = " + score + ", area = " + area + ", type = " + type + ", director = " + director + ", starring = " + starring + "}";
+        return "Movie{id = " + id + ", title = " + title + ", time = " + time + ", score = " + score + ", area = " + area + ", type = " + type + ", director = " + director + ", starring = " + starring + "}";
     }
 }

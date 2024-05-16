@@ -13,7 +13,9 @@ public class Test {
 
     Movie[] movies = {movie1, movie2, movie3};
 
-    MovieService movieService = new MovieService(movies);
+    MovieInfo movieInfo = new MovieInfo(movies);
+
+    MovieService movieService = new MovieService(movieInfo);
     movieService.start();
   }
 }
